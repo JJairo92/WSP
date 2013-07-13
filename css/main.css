@@ -7,27 +7,54 @@
 
 
 
-
-
-
-
-
 /* -------------------- Headers -------------------- */
 
-
-
-
-/* -------------------- Paragraphs -------------------- */
-
-
-
-
-/* -------------------- Videos -------------------- */
-
-video {
-	margin: 0 auto;
+h3 {
+	clear: left;
 }
 
+
+/* -------------------- Navigation & Home Page Pagination -------------------- */
+
+#pages ul, nav ul {
+	list-style-type: none;
+}
+
+#pages li, nav li {
+	float: left;
+	margin: 1%;
+}
+
+
+/* -------------------- Forums First Time Sign Up! -------------------- */
+
+#first_time {
+	margin: 1%;
+}
+
+
+/* -------------------- Images -------------------- */
+
+img {
+	margin-bottom: 2%;
+}
+
+
+/* -------------------- Forums -------------------- */
+
+.forums_categories p {
+	float: left;
+}
+
+.forums, #latest_topics {
+	border: 1px solid black;
+	margin: 1% 2%;
+	padding: 1%;
+}
+
+.grid_8 p {
+	margin-right: 3%;
+}
 
 
 /* -------------------- Footers -------------------- */
@@ -35,4 +62,6 @@ video {
 footer {
 	text-align: center;
 	clear: both;
+	margin: 2% 0;
 }
+
