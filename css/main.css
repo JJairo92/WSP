@@ -5,12 +5,87 @@
 
 /* -------------------- Backgrounds & Universal -------------------- */
 
+body {
+	background: #1f1f1f; /* Old browsers */
+	background: -moz-linear-gradient(top,  #1f1f1f 0%, #1f1f1f 37%, #46295d 59%, #532e68 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1f1f1f), color-stop(37%,#1f1f1f), color-stop(59%,#46295d), color-stop(100%,#532e68)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #1f1f1f 0%,#1f1f1f 37%,#46295d 59%,#532e68 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #1f1f1f 0%,#1f1f1f 37%,#46295d 59%,#532e68 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #1f1f1f 0%,#1f1f1f 37%,#46295d 59%,#532e68 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #1f1f1f 0%,#1f1f1f 37%,#46295d 59%,#532e68 100%); /* W3C */
+	font-family: 'Lato', sans-serif;
+}
+
+.container {
+	background-color: #fff;
+	color: #000;
+	overflow: hidden;
+}
+
+a {
+	color: #65a8ff;
+}
+
+.sub-titles {
+	font-family: 'Simonetta', cursive;
+	font-size: 1.6729166833959999em; /* 20pt */
+	margin-left: 2%;
+}
+
+.breadcrumbs {
+	margin-left: 2%;
+}
+
+.breadcrumbs a {
+	margin: 0 1%;
+}
+
+img {
+	margin-bottom: 2%;
+}
 
 
-/* -------------------- Headers -------------------- */
+/* -------------------- Home Page Articles & Page Titles -------------------- */
 
-h3 {
+.home-articles {
+	margin-left: 4%;
+	border-bottom: 1px solid black;
+}
+
+.page-title {
+	margin-left: 4%;
 	clear: left;
+	font-family: 'Niconne', cursive;
+	font-size: 3.3458333667919997em; /* 40pt */
+}
+
+.news-titles {
+	margin: 3% 0 1% 0;
+	font-family: 'Simonetta', cursive;
+	font-size: 1.6729166833959999em; /* 20pt */
+}
+
+.home-dates {
+	margin: 1% 4%;
+	font-family: 'Lato', sans-serif;
+	font-size: 0.8364583416979999em; /* 10pt */
+}
+
+.h-article-paragraphs {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.1710416783772em; /* 14pt */
+}
+
+.home-content {
+	margin: 0 0 2% 4%;
+}
+
+.horizontal-rectangles {
+
+}
+
+.vertical-rectangles {
+	margin-right: 1%;
 }
 
 
@@ -18,6 +93,7 @@ h3 {
 
 #pages ul, nav ul {
 	list-style-type: none;
+	vertical-align: center;
 }
 
 #pages li, nav li {
@@ -25,30 +101,121 @@ h3 {
 	margin: 1%;
 }
 
+#pages ul a, nav ul a {
+	text-decoration: none;
+	padding: 5px;
+}
 
-/* -------------------- Forums First Time Sign Up! -------------------- */
+#pages ul a {
+	background: #fff;
+	padding: 5px;
+}
+
+#pages {
+	text-align: center;
+}
+
+#pages a.active {
+	background: #66568d;
+	color: #fff;
+	padding: 5px;
+}
+
+
+/* -------------------- Gallery Page Content -------------------- */
+
+.gallery-titles {
+	font-family: 'Simonetta', cursive;
+	font-size: 1.2546875125469998em; /* 15pt */
+}
+
+.gallery-list {
+	list-style-type: none;
+	display: inline;
+	text-align: center;
+}
+
+.gallery-icons {
+	margin-left: 2%;
+}
+
+
+/* -------------------- Music Page Content -------------------- */
+
+.album {
+	margin-left: 3%;
+	float: left;
+}
+
+.album ul {
+	list-style-type: none;
+}
+
+.album h3 {
+	margin: 4% 0;
+	font-family: 'Simonetta', cursive;
+	font-size: 1.2546875125469998em; /* 15pt */
+}
+
+.album p {
+	font-size: 1.0873958442073999em; /* 14pt */
+}
+
+.tracks {
+	float: right;
+}
+
+
+/* -------------------- Games Page Content -------------------- */
+
+.cover {
+	margin-left: 3%;
+	float: left;
+}
+
+.cover ul {
+	list-style-type: none;
+	margin-left: 1%;
+	padding: 3%;
+}
+
+#games-content h3 {
+	font-family: 'Simonetta', cursive;
+	font-size: 1.2546875125469998em; /* 15pt */
+}
+
+#games-content h4 {
+	font-family: 'Simonetta', cursive;
+	font-size: 1.0873958442073999em; /* 15pt */
+	clear: both;
+	margin: 1% 0;
+}
+
+
+/* -------------------- Videos Page Content -------------------- */
+
+.video-content {
+	margin: 0 4%;
+}
+
+.video-content h3 {
+	font-family: 'Simonetta', cursive;
+	font-size: 1.2546875125469998em; /* 15pt */
+}
+
+
+/* -------------------- Forums Page Content -------------------- */
 
 #first_time {
-	margin: 1%;
+	margin: 1% 1% 1% 3%;
 }
-
-
-/* -------------------- Images -------------------- */
-
-img {
-	margin-bottom: 2%;
-}
-
-
-/* -------------------- Forums -------------------- */
 
 .forums_categories p {
 	float: left;
 }
 
 .forums, #latest_topics {
-	border: 1px solid black;
-	margin: 1% 2%;
+	border: 1px solid #66568d;
 	padding: 1%;
 }
 
@@ -56,12 +223,24 @@ img {
 	margin-right: 3%;
 }
 
+.forums h2, #latest_topics h2 {
+	font-family: 'Simonetta', cursive;
+	font-size: 1.5056250150564em; /* 15pt */
+	background: #66568d;
+	color: #fff;
+	padding: 2%;
+	margin: 0;
+	font-weight: normal;
+}
+
 
 /* -------------------- Footers -------------------- */
 
 footer {
 	text-align: center;
+	font-size: 0.8364583416979999em;
 	clear: both;
-	margin: 2% 0;
+	margin: 3% 0;
+	overflow: hidden;
 }
 
