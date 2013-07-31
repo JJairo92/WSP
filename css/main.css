@@ -151,7 +151,7 @@ input.submit {
 	text-indent: -999999px;
 	display: block;
 	padding: 0;
-	background: url(../images/nav/nav-regular.png) no-repeat;
+	background: url(../images/nav/desktop/nav-regular.png) no-repeat;
 }
 
 .main-nav ul {
@@ -501,11 +501,11 @@ footer {
 ----------------------------------------------------- */
 
 @media screen and (max-width: 767px) {
-	body .main-nav {
+	body header .main-nav {
 		width: 767px;
 	}
 
-	body .main-nav ul li a {
+	body header .main-nav ul li a {
 		height: 176px;
 		text-indent: -999999px;
 		display: block;
@@ -513,78 +513,78 @@ footer {
 		background: url(../images/nav/nav-regular.png) no-repeat;
 	}
 
-	body .main-nav ul {
+	body header .main-nav ul {
 		margin: 0;
 		padding: 0;
 	}
 
-	body .main-nav ul li {
+	body header .main-nav ul li {
 		margin: 0;
 		padding: 0;
 		width: 128px;
 		float: left;
 	}
 
-	body .main-nav h1 {
+	body header .main-nav h1 {
 		margin: 0;
 	}
 
 
 	/* --------------- Main Navigation --------------- */
 
-	body .main-nav .nav-home {
+	body header .main-nav .nav-home {
 		background-position: 0 0;
 	}
 
-	body .main-nav .nav-games {
+	body header .main-nav .nav-games {
 		background-position: -128px 0;
 	}
 
-	body .main-nav .nav-music {
+	body header .main-nav .nav-music {
 		background-position: -256px 0;
 	}
 
-	body .main-nav .nav-videos {
+	body header .main-nav .nav-videos {
 		background-position: -384px 0;
 	}
 
-	body .main-nav .nav-gallery {
+	body header .main-nav .nav-gallery {
 		background-position: -512px 0;
 	}
 
-	body .main-nav .nav-forums {
+	body header .main-nav .nav-forums {
 		background-position: -640px 0;
 	}
 
 
 	/* --------------- Main Navigation Active States --------------- */
 
-	body .nav-home.active {
+	body header .nav-home.active {
 		background: url(../images/nav/nav-active.png) no-repeat;
 		background-position: 0 0;
 	}
 
-	body .nav-games.active {
+	body header .nav-games.active {
 		background: url(../images/nav/nav-active.png) no-repeat;
 		background-position: -128px 0;
 	}
 
-	body .nav-music.active {
+	body header .nav-music.active {
 		background: url(../images/nav/nav-active.png) no-repeat;
 		background-position: -256px 0;
 	}
 
-	body .nav-videos.active {
+	body header .nav-videos.active {
 		background: url(../images/nav/nav-active.png) no-repeat;
 		background-position: -384px 0;
 	}
 
-	body .nav-gallery.active {
+	body header .nav-gallery.active {
 		background: url(../images/nav/nav-active.png) no-repeat;
 		background-position: -512px 0;
 	}
 
-	body .nav-forums.active {
+	body header .nav-forums.active {
 		background: url(../images/nav/nav-active.png) no-repeat;
 		background-position: -640px 0;
 	}
@@ -592,32 +592,32 @@ footer {
 
 	/* --------------- Main Navigation Hover States --------------- */
 
-	body .nav-home:hover {
+	body header .nav-home:hover {
 		background: url(../images/nav/nav-hover.png) no-repeat;
 		background-position: 0 0;
 	}
 
-	body .nav-games:hover {
+	body header .nav-games:hover {
 		background: url(../images/nav/nav-hover.png) no-repeat;
 		background-position: -128px 0;
 	}
 
-	body .nav-music:hover {
+	body header .nav-music:hover {
 		background: url(../images/nav/nav-hover.png) no-repeat;
 		background-position: -256px 0;
 	}
 
-	body .nav-videos:hover {
+	body header .nav-videos:hover {
 		background: url(../images/nav/nav-hover.png) no-repeat;
 		background-position: -384px 0;
 	}
 
-	body .nav-gallery:hover {
+	body header .nav-gallery:hover {
 		background: url(../images/nav/nav-hover.png) no-repeat;
 		background-position: -512px 0;
 	}
 
-	body .nav-forums:hover {
+	body header .nav-forums:hover {
 		background: url(../images/nav/nav-hover.png) no-repeat;
 		background-position: -640px 0;
 	}
