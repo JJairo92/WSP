@@ -500,9 +500,16 @@ footer {
 					Media Queries
 ----------------------------------------------------- */
 
-@media screen and (max-width: 767px) {
+/* ------------------------- 995px ------------------------- */
+
+
+@media screen and (max-width: 995px) {
+	iframe {
+		height: 372px;
+	}
+
 	body header .main-nav {
-		width: 767px;
+		width: 768px;
 	}
 
 	body header .main-nav ul li a {
@@ -510,7 +517,7 @@ footer {
 		text-indent: -999999px;
 		display: block;
 		padding: 0;
-		background: url(../images/nav/nav-regular.png) no-repeat;
+		background: url(../images/nav/768px/nav-regular.png) no-repeat;
 	}
 
 	body header .main-nav ul {
@@ -560,32 +567,32 @@ footer {
 	/* --------------- Main Navigation Active States --------------- */
 
 	body header .nav-home.active {
-		background: url(../images/nav/nav-active.png) no-repeat;
+		background: url(../images/nav/768px/nav-active.png) no-repeat;
 		background-position: 0 0;
 	}
 
 	body header .nav-games.active {
-		background: url(../images/nav/nav-active.png) no-repeat;
+		background: url(../images/nav/768px/nav-active.png) no-repeat;
 		background-position: -128px 0;
 	}
 
 	body header .nav-music.active {
-		background: url(../images/nav/nav-active.png) no-repeat;
+		background: url(../images/nav/768px/nav-active.png) no-repeat;
 		background-position: -256px 0;
 	}
 
 	body header .nav-videos.active {
-		background: url(../images/nav/nav-active.png) no-repeat;
+		background: url(../images/nav/768px/nav-active.png) no-repeat;
 		background-position: -384px 0;
 	}
 
 	body header .nav-gallery.active {
-		background: url(../images/nav/nav-active.png) no-repeat;
+		background: url(../images/nav/768px/nav-active.png) no-repeat;
 		background-position: -512px 0;
 	}
 
 	body header .nav-forums.active {
-		background: url(../images/nav/nav-active.png) no-repeat;
+		background: url(../images/nav/768px/nav-active.png) no-repeat;
 		background-position: -640px 0;
 	}
 
@@ -593,44 +600,296 @@ footer {
 	/* --------------- Main Navigation Hover States --------------- */
 
 	body header .nav-home:hover {
-		background: url(../images/nav/nav-hover.png) no-repeat;
+		background: url(../images/nav/768px/nav-hover.png) no-repeat;
 		background-position: 0 0;
 	}
 
 	body header .nav-games:hover {
-		background: url(../images/nav/nav-hover.png) no-repeat;
+		background: url(../images/nav/768px/nav-hover.png) no-repeat;
 		background-position: -128px 0;
 	}
 
 	body header .nav-music:hover {
-		background: url(../images/nav/nav-hover.png) no-repeat;
+		background: url(../images/nav/768px/nav-hover.png) no-repeat;
 		background-position: -256px 0;
 	}
 
 	body header .nav-videos:hover {
-		background: url(../images/nav/nav-hover.png) no-repeat;
+		background: url(../images/nav/768px/nav-hover.png) no-repeat;
 		background-position: -384px 0;
 	}
 
 	body header .nav-gallery:hover {
-		background: url(../images/nav/nav-hover.png) no-repeat;
+		background: url(../images/nav/768px/nav-hover.png) no-repeat;
 		background-position: -512px 0;
 	}
 
 	body header .nav-forums:hover {
-		background: url(../images/nav/nav-hover.png) no-repeat;
+		background: url(../images/nav/768px/nav-hover.png) no-repeat;
 		background-position: -640px 0;
 	}
 }
 
+/* ------------------------- 767px ------------------------- */
+
+@media screen and (max-width: 767px) {
+	iframe {
+		height: 206px;
+	}
+
+	body#first_time {
+		margin-top: 5%;
+	}
+
+	body header .main-nav {
+		width: 456px;
+	}
+
+	body header .main-nav ul li a {
+		height: 104px;
+		text-indent: -999999px;
+		display: block;
+		padding: 0;
+		background: url(../images/nav/456px/nav-regular.png) no-repeat;
+	}
+
+	body header .main-nav ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	body header .main-nav ul li {
+		margin: 0;
+		padding: 0;
+		width: 76px;
+		float: left;
+	}
+
+	body header .main-nav h1 {
+		margin: 0;
+	}
 
 
+	/* --------------- Main Navigation --------------- */
+
+	body header .main-nav .nav-home {
+		background-position: 0 0;
+	}
+
+	body header .main-nav .nav-games {
+		background-position: -76px 0;
+	}
+
+	body header .main-nav .nav-music {
+		background-position: -152px 0;
+	}
+
+	body header .main-nav .nav-videos {
+		background-position: -228px 0;
+	}
+
+	body header .main-nav .nav-gallery {
+		background-position: -304px 0;
+	}
+
+	body header .main-nav .nav-forums {
+		background-position: -380px 0;
+	}
 
 
+	/* --------------- Main Navigation Active States --------------- */
+
+	body header .nav-home.active {
+		background: url(../images/nav/456px/nav-active.png) no-repeat;
+		background-position: 0 0;
+	}
+
+	body header .nav-games.active {
+		background: url(../images/nav/456px/nav-active.png) no-repeat;
+		background-position: -76px 0;
+	}
+
+	body header .nav-music.active {
+		background: url(../images/nav/456px/nav-active.png) no-repeat;
+		background-position: -152px 0;
+	}
+
+	body header .nav-videos.active {
+		background: url(../images/nav/456px/nav-active.png) no-repeat;
+		background-position: -228px 0;
+	}
+
+	body header .nav-gallery.active {
+		background: url(../images/nav/456px/nav-active.png) no-repeat;
+		background-position: -304px 0;
+	}
+
+	body header .nav-forums.active {
+		background: url(../images/nav/456px/nav-active.png) no-repeat;
+		background-position: -380px 0;
+	}
 
 
+	/* --------------- Main Navigation Hover States --------------- */
+
+	body header .nav-home:hover {
+		background: url(../images/nav/456px/nav-hover.png) no-repeat;
+		background-position: 0 0;
+	}
+
+	body header .nav-games:hover {
+		background: url(../images/nav/456px/nav-hover.png) no-repeat;
+		background-position: -76px 0;
+	}
+
+	body header .nav-music:hover {
+		background: url(../images/nav/456px/nav-hover.png) no-repeat;
+		background-position: -152px 0;
+	}
+
+	body header .nav-videos:hover {
+		background: url(../images/nav/456px/nav-hover.png) no-repeat;
+		background-position: -228px 0;
+	}
+
+	body header .nav-gallery:hover {
+		background: url(../images/nav/456px/nav-hover.png) no-repeat;
+		background-position: -304px 0;
+	}
+
+	body header .nav-forums:hover {
+		background: url(../images/nav/456px/nav-hover.png) no-repeat;
+		background-position: -380px 0;
+	}
+}
 
 
+/* ------------------------- 479px ------------------------- */
+
+@media only screen and (max-width: 479px) {
+	iframe {
+		height: 128px;
+	}
+
+	body header .main-nav {
+		width: 300px;
+	}
+
+	body header .main-nav ul li a {
+		height: 69px;
+		text-indent: -999999px;
+		display: block;
+		padding: 0;
+		background: url(../images/nav/300px/nav-regular.png) no-repeat;
+	}
+
+	body header .main-nav ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	body header .main-nav ul li {
+		margin: 0;
+		padding: 0;
+		width: 50px;
+		float: left;
+	}
+
+	body header .main-nav h1 {
+		margin: 0;
+	}
 
 
+	/* --------------- Main Navigation --------------- */
+
+	body header .main-nav .nav-home {
+		background-position: 0 0;
+	}
+
+	body header .main-nav .nav-games {
+		background-position: -50px 0;
+	}
+
+	body header .main-nav .nav-music {
+		background-position: -100px 0;
+	}
+
+	body header .main-nav .nav-videos {
+		background-position: -150px 0;
+	}
+
+	body header .main-nav .nav-gallery {
+		background-position: -200px 0;
+	}
+
+	body header .main-nav .nav-forums {
+		background-position: -250px 0;
+	}
+
+
+	/* --------------- Main Navigation Active States --------------- */
+
+	body header .nav-home.active {
+		background: url(../images/nav/300px/nav-active.png) no-repeat;
+		background-position: 0 0;
+	}
+
+	body header .nav-games.active {
+		background: url(../images/nav/300px/nav-active.png) no-repeat;
+		background-position: -50px 0;
+	}
+
+	body header .nav-music.active {
+		background: url(../images/nav/300px/nav-active.png) no-repeat;
+		background-position: -100px 0;
+	}
+
+	body header .nav-videos.active {
+		background: url(../images/nav/300px/nav-active.png) no-repeat;
+		background-position: -150px 0;
+	}
+
+	body header .nav-gallery.active {
+		background: url(../images/nav/300px/nav-active.png) no-repeat;
+		background-position: -200px 0;
+	}
+
+	body header .nav-forums.active {
+		background: url(../images/nav/300px/nav-active.png) no-repeat;
+		background-position: -250px 0;
+	}
+
+
+	/* --------------- Main Navigation Hover States --------------- */
+
+	body header .nav-home:hover {
+		background: url(../images/nav/300px/nav-hover.png) no-repeat;
+		background-position: 0 0;
+	}
+
+	body header .nav-games:hover {
+		background: url(../images/nav/300px/nav-hover.png) no-repeat;
+		background-position: -50px 0;
+	}
+
+	body header .nav-music:hover {
+		background: url(../images/nav/300px/nav-hover.png) no-repeat;
+		background-position: -100px 0;
+	}
+
+	body header .nav-videos:hover {
+		background: url(../images/nav/300px/nav-hover.png) no-repeat;
+		background-position: -150px 0;
+	}
+
+	body header .nav-gallery:hover {
+		background: url(../images/nav/300px/nav-hover.png) no-repeat;
+		background-position: -200px 0;
+	}
+
+	body header .nav-forums:hover {
+		background: url(../images/nav/300px/nav-hover.png) no-repeat;
+		background-position: -250px 0;
+	}
+}
 
