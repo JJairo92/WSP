@@ -1,0 +1,891 @@
+/*
+    Name: Jairo Jurado
+*/
+
+
+/* -------------------- Backgrounds & Universal -------------------- */
+
+body {
+	background: #1f1f1f; /* Old browsers */
+	background: -moz-linear-gradient(top,  #1f1f1f 0%, #1f1f1f 37%, #46295d 59%, #532e68 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1f1f1f), color-stop(37%,#1f1f1f), color-stop(59%,#46295d), color-stop(100%,#532e68)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #1f1f1f 0%,#1f1f1f 37%,#46295d 59%,#532e68 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #1f1f1f 0%,#1f1f1f 37%,#46295d 59%,#532e68 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #1f1f1f 0%,#1f1f1f 37%,#46295d 59%,#532e68 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #1f1f1f 0%,#1f1f1f 37%,#46295d 59%,#532e68 100%); /* W3C */
+	font-family: 'Lato', sans-serif;
+}
+
+.container {
+	background-color: #fff;
+	max-width: 996px;
+	color: #000;
+	overflow: hidden;
+}
+
+a {
+	color: #65a8ff;
+}
+
+.sub-titles {
+	font-family: 'Simonetta', cursive;
+	font-size: 1.6729166833959999em; /* 20pt */
+	margin-left: 2%;
+}
+
+.breadcrumbs {
+	margin-left: 2%;
+}
+
+.breadcrumbs a {
+	margin: 0 1%;
+}
+
+img {
+	margin-bottom: 2%;
+	margin-right: 2%;
+}
+
+input.search {
+	height: 35px;
+	margin-top: 9%;
+	border: 2px solid #66568d;
+	background: #e2e0e0;
+	padding: 1%;
+	width: 70%;
+	clear: right;
+}
+
+input.submit {
+	background: url('../images/search/search-icon.png') no-repeat;
+	text-indent: -99999px;
+	width: 35px;
+	height: 35px;
+	margin-left: -15%;
+	border: 0;
+}
+
+
+/* -------------------- Home Page Articles & Page Titles -------------------- */
+
+.home-articles {
+	margin-left: 4%;
+	border-bottom: 1px solid black;
+}
+
+.page-title {
+	margin: 1% 4%;
+	clear: left;
+	font-family: 'Niconne', cursive;
+	font-size: 3.3458333667919997em; /* 40pt */
+}
+
+.news-titles {
+	margin: 3% 0 1% 0;
+	font-family: 'Simonetta', cursive;
+	font-size: 1.6729166833959999em; /* 20pt */
+}
+
+.home-dates {
+	margin: 1% 4%;
+	font-family: 'Lato', sans-serif;
+	font-size: 0.8364583416979999em; /* 10pt */
+}
+
+.h-article-paragraphs {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.1710416783772em; /* 14pt */
+}
+
+.home-content {
+	margin: 0 0 2% 4%;
+}
+
+.horizontal-rectangles {
+	margin-left: -5%;
+	margin-right: 2%;
+}
+
+.vertical-rectangles {
+	margin-right: 1%;
+}
+
+
+/* -------------------- Navigation & Home Page Pagination -------------------- */
+
+#pages ul, nav ul {
+	list-style-type: none;
+}
+
+#pages li, nav li {
+	float: left;
+	margin: 1%;
+}
+
+#pages ul a, nav ul a {
+	text-decoration: none;
+	padding: 5px;
+}
+
+#pages ul a {
+	background: #fff;
+	padding: 5px;
+}
+
+#pages {
+	text-align: center;
+}
+
+#pages a.active {
+	background: #66568d;
+	color: #fff;
+	padding: 5px;
+}
+
+.main-nav {
+	width: 996px;
+}
+
+.main-nav ul li a {
+	height: 228px;
+	text-indent: -999999px;
+	display: block;
+	padding: 0;
+	background: url(../images/nav/desktop/nav-regular.png) no-repeat;
+}
+
+.main-nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.main-nav ul li {
+	margin: 0;
+	padding: 0;
+	width: 166px;
+	float: left;
+}
+
+.main-nav h1 {
+	margin: 0;
+}
+
+
+/* --------------- Main Navigation --------------- */
+
+.main-nav .nav-home {
+	background-position: 0 0;
+}
+
+.main-nav .nav-games {
+	background-position: -166px 0;
+}
+
+.main-nav .nav-music {
+	background-position: -332px 0;
+}
+
+.main-nav .nav-videos {
+	background-position: -498px 0;
+}
+
+.main-nav .nav-gallery {
+	background-position: -664px 0;
+}
+
+.main-nav .nav-forums {
+	background-position: -830px 0;
+}
+
+
+/* --------------- Main Navigation Active States --------------- */
+
+.nav-home.active {
+	background: url(../images/nav/desktop/nav-active.png) no-repeat;
+	background-position: 0 0;
+}
+
+.nav-games.active {
+	background: url(../images/nav/desktop/nav-active.png) no-repeat;
+	background-position: -166px 0;
+}
+
+.nav-music.active {
+	background: url(../images/nav/desktop/nav-active.png) no-repeat;
+	background-position: -332px 0;
+}
+
+.nav-videos.active {
+	background: url(../images/nav/desktop/nav-active.png) no-repeat;
+	background-position: -498px 0;
+}
+
+.nav-gallery.active {
+	background: url(../images/nav/desktop/nav-active.png) no-repeat;
+	background-position: -664px 0;
+}
+
+.nav-forums.active {
+	background: url(../images/nav/desktop/nav-active.png) no-repeat;
+	background-position: -830px 0;
+}
+
+
+/* --------------- Main Navigation Hover States --------------- */
+
+.nav-home:hover {
+	background: url(../images/nav/desktop/nav-hover.png) no-repeat;
+	background-position: 0 0;
+}
+
+.nav-games:hover {
+	background: url(../images/nav/desktop/nav-hover.png) no-repeat;
+	background-position: -166px 0;
+}
+
+.nav-music:hover {
+	background: url(../images/nav/desktop/nav-hover.png) no-repeat;
+	background-position: -332px 0;
+}
+
+.nav-videos:hover {
+	background: url(../images/nav/desktop/nav-hover.png) no-repeat;
+	background-position: -498px 0;
+}
+
+.nav-gallery:hover {
+	background: url(../images/nav/desktop/nav-hover.png) no-repeat;
+	background-position: -664px 0;
+}
+
+.nav-forums:hover {
+	background: url(../images/nav/desktop/nav-hover.png) no-repeat;
+	background-position: -830px 0;
+}
+
+
+/* -------------------- Gallery Page Content -------------------- */
+
+.gallery-titles {
+	font-family: 'Simonetta', cursive;
+	font-size: 1.2546875125469998em; /* 15pt */
+}
+
+.gallery-list {
+	list-style-type: none;
+	display: inline;
+	text-align: center;
+}
+
+.gallery-blocks {
+	margin-left: 2%;
+}
+
+
+/* -------------------- Music Page Content -------------------- */
+
+.album {
+	margin-left: 4%;
+	float: left;
+}
+
+.album ul {
+	list-style-type: none;
+}
+
+.album h3 {
+	margin: 4% 0;
+	font-family: 'Simonetta', cursive;
+	font-size: 1.2546875125469998em; /* 15pt */
+}
+
+.album p {
+	font-size: 1.0873958442073999em; /* 14pt */
+}
+
+.tracks {
+	float: right;
+	margin-right: 5%;
+}
+
+
+/* -------------------- Games Page Content -------------------- */
+
+.cover {
+	margin-left: 3%;
+	float: left;
+}
+
+.cover ul {
+	list-style-type: none;
+	margin-left: 1%;
+	padding: 3%;
+}
+
+#games-content h3 {
+	font-family: 'Simonetta', cursive;
+	font-size: 1.2546875125469998em; /* 15pt */
+}
+
+#games-content h4 {
+	font-family: 'Simonetta', cursive;
+	font-size: 1.0873958442073999em; /* 13pt */
+	clear: both;
+	margin: 4% 0;
+}
+
+
+/* -------------------- Videos Page Content -------------------- */
+
+.video-content {
+	margin: 0 4%;
+}
+
+.video-content h3 {
+	font-family: 'Simonetta', cursive;
+	font-size: 1.3383333467168em; /* 16pt */
+}
+
+.video-content p {
+	font-size: 1.0873958442073999em; /* 13pt */
+}
+
+iframe {
+	width: 89%;
+	height: 480px;
+}
+
+
+/* -------------------- Forums Page Content -------------------- */
+
+#first_time {
+	margin-left: 12%;
+	margin-top: 10%;
+	clear: left;
+	font-family: 'Simonetta', cursive;
+	font-size: 1.9238541859054em; /* 23pt */
+}
+
+input#signup-button {
+	color: #ffffff;
+	padding: 1% 5%;
+	background: -moz-linear-gradient(
+		top,
+		#70658d 0%,
+		#70658d);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#66568d),
+		to(#66568d));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #0e0f0e;
+	-moz-box-shadow:
+		0px 1px 3px rgba(82,82,82,0.5),
+		inset 0px 0px 2px rgba(43,42,43,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(82,82,82,0.5),
+		inset 0px 0px 2px rgba(43,42,43,1);
+	box-shadow:
+		0px 1px 3px rgba(82,82,82,0.5),
+		inset 0px 0px 2px rgba(43,42,43,1);
+	text-shadow:
+		0px -1px 0px rgba(102,86,141,0.4),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+
+#forums-top {
+	clear: left;
+	margin-top: 5%;
+}
+
+.user {
+	float: right;
+	margin: 0;
+}
+
+.user {
+	font-size: 0.8364583416979999em; /* 10pt */
+}
+
+.signup {
+	float: left;
+	clear: left;
+}
+
+#latest_topics {
+	float: right;
+	margin-right: 2%;
+}
+
+#latest_topics p {
+	font-size: 0.8364583416979999em; /* 10pt */
+}
+
+.forums {
+	float: left;
+	margin-left: 3%;
+}
+
+.forums, #latest_topics {
+	border: 1px solid #66568d;
+	padding: 1%;
+	margin-bottom: 2%;
+}
+
+.grid_8 p {
+	margin-right: 2%;
+}
+
+.forums h2, #latest_topics h2 {
+	font-family: 'Simonetta', cursive;
+	font-size: 1.5056250150564em; /* 15pt */
+	background: #66568d;
+	color: #fff;
+	padding: 2%;
+	margin: 0;
+	font-weight: normal;
+}
+
+.forums h3, #latest_topics h3 {
+	font-size: 1.0037500100376em; /* 12pt */
+}
+
+header p {
+	clear: both;
+}
+
+input.login {
+	margin: 5% 0 2% 0;
+	clear: right;
+	border: 2px solid #66568d;
+	background: #e2e0e0;
+	padding: 3%;
+}
+
+input.login-button {
+	font-family: 'Simonetta', cursive;
+	font-size: 1.0037500100376em; /* 12pt */
+}
+
+#login {
+	float: right;
+	margin-right: 4%;
+}
+
+.forums-paragraphs, .posts, #login p {
+	font-size: 0.9201041758677999em; /* 11pt */
+}
+
+
+/* -------------------- Footers -------------------- */
+
+footer {
+	text-align: center;
+	font-size: 0.9201041758677999em; /* 11pt */
+	clear: both;
+	margin: 3% 0;
+	overflow: hidden;
+}
+
+
+
+
+/* ---------------------------------------------------- 
+					Media Queries
+----------------------------------------------------- */
+
+/* ------------------------- 995px ------------------------- */
+
+
+@media screen and (max-width: 995px) {
+	iframe {
+		height: 372px;
+	}
+
+	body header .main-nav {
+		width: 768px;
+	}
+
+	body header .main-nav ul li a {
+		height: 176px;
+		text-indent: -999999px;
+		display: block;
+		padding: 0;
+		background: url(../images/nav/768px/nav-regular.png) no-repeat;
+	}
+
+	body header .main-nav ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	body header .main-nav ul li {
+		margin: 0;
+		padding: 0;
+		width: 128px;
+		float: left;
+	}
+
+	body header .main-nav h1 {
+		margin: 0;
+	}
+
+
+	/* --------------- Main Navigation --------------- */
+
+	body header .main-nav .nav-home {
+		background-position: 0 0;
+	}
+
+	body header .main-nav .nav-games {
+		background-position: -128px 0;
+	}
+
+	body header .main-nav .nav-music {
+		background-position: -256px 0;
+	}
+
+	body header .main-nav .nav-videos {
+		background-position: -384px 0;
+	}
+
+	body header .main-nav .nav-gallery {
+		background-position: -512px 0;
+	}
+
+	body header .main-nav .nav-forums {
+		background-position: -640px 0;
+	}
+
+
+	/* --------------- Main Navigation Active States --------------- */
+
+	body header .nav-home.active {
+		background: url(../images/nav/768px/nav-active.png) no-repeat;
+		background-position: 0 0;
+	}
+
+	body header .nav-games.active {
+		background: url(../images/nav/768px/nav-active.png) no-repeat;
+		background-position: -128px 0;
+	}
+
+	body header .nav-music.active {
+		background: url(../images/nav/768px/nav-active.png) no-repeat;
+		background-position: -256px 0;
+	}
+
+	body header .nav-videos.active {
+		background: url(../images/nav/768px/nav-active.png) no-repeat;
+		background-position: -384px 0;
+	}
+
+	body header .nav-gallery.active {
+		background: url(../images/nav/768px/nav-active.png) no-repeat;
+		background-position: -512px 0;
+	}
+
+	body header .nav-forums.active {
+		background: url(../images/nav/768px/nav-active.png) no-repeat;
+		background-position: -640px 0;
+	}
+
+
+	/* --------------- Main Navigation Hover States --------------- */
+
+	body header .nav-home:hover {
+		background: url(../images/nav/768px/nav-hover.png) no-repeat;
+		background-position: 0 0;
+	}
+
+	body header .nav-games:hover {
+		background: url(../images/nav/768px/nav-hover.png) no-repeat;
+		background-position: -128px 0;
+	}
+
+	body header .nav-music:hover {
+		background: url(../images/nav/768px/nav-hover.png) no-repeat;
+		background-position: -256px 0;
+	}
+
+	body header .nav-videos:hover {
+		background: url(../images/nav/768px/nav-hover.png) no-repeat;
+		background-position: -384px 0;
+	}
+
+	body header .nav-gallery:hover {
+		background: url(../images/nav/768px/nav-hover.png) no-repeat;
+		background-position: -512px 0;
+	}
+
+	body header .nav-forums:hover {
+		background: url(../images/nav/768px/nav-hover.png) no-repeat;
+		background-position: -640px 0;
+	}
+}
+
+/* ------------------------- 767px ------------------------- */
+
+@media screen and (max-width: 767px) {
+	iframe {
+		height: 206px;
+	}
+
+	body#first_time {
+		margin-top: 5%;
+	}
+
+	body header .main-nav {
+		width: 456px;
+	}
+
+	body header .main-nav ul li a {
+		height: 104px;
+		text-indent: -999999px;
+		display: block;
+		padding: 0;
+		background: url(../images/nav/456px/nav-regular.png) no-repeat;
+	}
+
+	body header .main-nav ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	body header .main-nav ul li {
+		margin: 0;
+		padding: 0;
+		width: 76px;
+		float: left;
+	}
+
+	body header .main-nav h1 {
+		margin: 0;
+	}
+
+
+	/* --------------- Main Navigation --------------- */
+
+	body header .main-nav .nav-home {
+		background-position: 0 0;
+	}
+
+	body header .main-nav .nav-games {
+		background-position: -76px 0;
+	}
+
+	body header .main-nav .nav-music {
+		background-position: -152px 0;
+	}
+
+	body header .main-nav .nav-videos {
+		background-position: -228px 0;
+	}
+
+	body header .main-nav .nav-gallery {
+		background-position: -304px 0;
+	}
+
+	body header .main-nav .nav-forums {
+		background-position: -380px 0;
+	}
+
+
+	/* --------------- Main Navigation Active States --------------- */
+
+	body header .nav-home.active {
+		background: url(../images/nav/456px/nav-active.png) no-repeat;
+		background-position: 0 0;
+	}
+
+	body header .nav-games.active {
+		background: url(../images/nav/456px/nav-active.png) no-repeat;
+		background-position: -76px 0;
+	}
+
+	body header .nav-music.active {
+		background: url(../images/nav/456px/nav-active.png) no-repeat;
+		background-position: -152px 0;
+	}
+
+	body header .nav-videos.active {
+		background: url(../images/nav/456px/nav-active.png) no-repeat;
+		background-position: -228px 0;
+	}
+
+	body header .nav-gallery.active {
+		background: url(../images/nav/456px/nav-active.png) no-repeat;
+		background-position: -304px 0;
+	}
+
+	body header .nav-forums.active {
+		background: url(../images/nav/456px/nav-active.png) no-repeat;
+		background-position: -380px 0;
+	}
+
+
+	/* --------------- Main Navigation Hover States --------------- */
+
+	body header .nav-home:hover {
+		background: url(../images/nav/456px/nav-hover.png) no-repeat;
+		background-position: 0 0;
+	}
+
+	body header .nav-games:hover {
+		background: url(../images/nav/456px/nav-hover.png) no-repeat;
+		background-position: -76px 0;
+	}
+
+	body header .nav-music:hover {
+		background: url(../images/nav/456px/nav-hover.png) no-repeat;
+		background-position: -152px 0;
+	}
+
+	body header .nav-videos:hover {
+		background: url(../images/nav/456px/nav-hover.png) no-repeat;
+		background-position: -228px 0;
+	}
+
+	body header .nav-gallery:hover {
+		background: url(../images/nav/456px/nav-hover.png) no-repeat;
+		background-position: -304px 0;
+	}
+
+	body header .nav-forums:hover {
+		background: url(../images/nav/456px/nav-hover.png) no-repeat;
+		background-position: -380px 0;
+	}
+}
+
+
+/* ------------------------- 479px ------------------------- */
+
+@media only screen and (max-width: 479px) {
+	iframe {
+		height: 128px;
+	}
+
+	body header .main-nav {
+		width: 300px;
+	}
+
+	body header .main-nav ul li a {
+		height: 69px;
+		text-indent: -999999px;
+		display: block;
+		padding: 0;
+		background: url(../images/nav/300px/nav-regular.png) no-repeat;
+	}
+
+	body header .main-nav ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	body header .main-nav ul li {
+		margin: 0;
+		padding: 0;
+		width: 50px;
+		float: left;
+	}
+
+	body header .main-nav h1 {
+		margin: 0;
+	}
+
+
+	/* --------------- Main Navigation --------------- */
+
+	body header .main-nav .nav-home {
+		background-position: 0 0;
+	}
+
+	body header .main-nav .nav-games {
+		background-position: -50px 0;
+	}
+
+	body header .main-nav .nav-music {
+		background-position: -100px 0;
+	}
+
+	body header .main-nav .nav-videos {
+		background-position: -150px 0;
+	}
+
+	body header .main-nav .nav-gallery {
+		background-position: -200px 0;
+	}
+
+	body header .main-nav .nav-forums {
+		background-position: -250px 0;
+	}
+
+
+	/* --------------- Main Navigation Active States --------------- */
+
+	body header .nav-home.active {
+		background: url(../images/nav/300px/nav-active.png) no-repeat;
+		background-position: 0 0;
+	}
+
+	body header .nav-games.active {
+		background: url(../images/nav/300px/nav-active.png) no-repeat;
+		background-position: -50px 0;
+	}
+
+	body header .nav-music.active {
+		background: url(../images/nav/300px/nav-active.png) no-repeat;
+		background-position: -100px 0;
+	}
+
+	body header .nav-videos.active {
+		background: url(../images/nav/300px/nav-active.png) no-repeat;
+		background-position: -150px 0;
+	}
+
+	body header .nav-gallery.active {
+		background: url(../images/nav/300px/nav-active.png) no-repeat;
+		background-position: -200px 0;
+	}
+
+	body header .nav-forums.active {
+		background: url(../images/nav/300px/nav-active.png) no-repeat;
+		background-position: -250px 0;
+	}
+
+
+	/* --------------- Main Navigation Hover States --------------- */
+
+	body header .nav-home:hover {
+		background: url(../images/nav/300px/nav-hover.png) no-repeat;
+		background-position: 0 0;
+	}
+
+	body header .nav-games:hover {
+		background: url(../images/nav/300px/nav-hover.png) no-repeat;
+		background-position: -50px 0;
+	}
+
+	body header .nav-music:hover {
+		background: url(../images/nav/300px/nav-hover.png) no-repeat;
+		background-position: -100px 0;
+	}
+
+	body header .nav-videos:hover {
+		background: url(../images/nav/300px/nav-hover.png) no-repeat;
+		background-position: -150px 0;
+	}
+
+	body header .nav-gallery:hover {
+		background: url(../images/nav/300px/nav-hover.png) no-repeat;
+		background-position: -200px 0;
+	}
+
+	body header .nav-forums:hover {
+		background: url(../images/nav/300px/nav-hover.png) no-repeat;
+		background-position: -250px 0;
+	}
+}
+
